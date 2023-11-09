@@ -11,13 +11,14 @@ d = float(d)
 
 # --- Comprobamos cual es el mayor --- #
 if (a>b):
-    b = a
+  a, b = b , a
 
 if (b>c):    
-    c = b
+   b, c = c , b
 
 if (c>d):
-    d = c
+  c, d = d , c
 print("El mayor de los cuatro es: ", d)
+print("El orden de los números de menor a mayor es: ", a, b, c, d)
 
 
