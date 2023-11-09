@@ -18,6 +18,8 @@ else:
         print("Contraseña correcta. ¡Bienvenido!")
     else:
         ## si no damos un mensaje de error y termina el programa
+        print("Error, la contraseña no es correcta. Demasiados intentos.")
+        print("Programa terminado.")
 
 
 
