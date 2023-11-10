@@ -24,9 +24,9 @@ elif genero.lower() == "chico":
     else:
         ## el  resto --> grupo B
         print("Tu grupo es B")
-        
+
 # genero invalido
 else:
-    print("Genero invalido")
+    print("ERROR: genero invalido")
     exit()
 
