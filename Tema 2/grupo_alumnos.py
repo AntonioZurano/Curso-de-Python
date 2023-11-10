@@ -4,7 +4,7 @@ genero = input("Ingrese tu genero (chico/chica): ")
 #nombre
 nombre = input("Ingrese tu nombre: ")
 nombres_chicas_A ="EHIJKLM"
-nombre_chicos_A = "ABCDEFGHRSTUVWXYZ"
+nombres_chicos_A = "ABCDEFGHRSTUVWXYZ"
 
 # --- Elegir grupo que corresponde --- #
 # chica
@@ -18,7 +18,7 @@ if genero.lower() == "chica":
 
 # chico
 elif genero.lower() == "chico":
-    if nombre[0].upper() in nombre_chicos_A:
+    if nombre[0].upper() in nombres_chicos_A:
         ## A hasta la H, R hasta Z --> grupo A
         print("Tu grupo es A")
     else:
