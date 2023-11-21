@@ -4,3 +4,4 @@ por pantalla el número de veces que aparece
 la letra en la frase.
 '''
 
+# --- pedir palabra al usuario
