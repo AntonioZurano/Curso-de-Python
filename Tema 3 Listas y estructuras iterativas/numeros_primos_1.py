@@ -44,3 +44,20 @@ for numero in range(2,101):
         print(numero, "es primo")
     else:
         print(numero, "no es primo")
+
+# --- otra forma de hacerlo
+for numero in range(2,101):
+    # --- bucle para recorrer los numeros del 2 al numero-1
+    # --- y comprobar si son divisores del numero
+    primo=True
+    i=2
+    while i < numero and primo==True:
+        if numero % i == 0:
+            primo = False
+        i += 1
+    # --- si el contador es 0, el numero es primo
+    if primo:
+        print(numero, "es primo")
+    else:
+        print(numero, "no es primo")
+
