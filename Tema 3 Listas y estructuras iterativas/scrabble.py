@@ -10,12 +10,17 @@ será la suma de los puntos de todas las fichas de la mano.
 '''
 
 # --- Lista con las fichas de scrabble
+
 mano_scrabble = ["A5", "B3", "C4", "H8", "D10"]
 
-puntos=0
 # --- bucle en el que recorremos las fichas y sumamos los puntos
+# iniciamos la variable puntos en 0
+puntos = 0
+# recorremos la lista con las fichas de scrabble
 for ficha in mano_scrabble:
     # sumamos lo puntos de cada una de las fichas
     puntos = puntos + int(ficha[1:])
+
 # --- imprimir el numero total de puntos
+
 print("El numero total de puntos de tu mano es:", puntos)
