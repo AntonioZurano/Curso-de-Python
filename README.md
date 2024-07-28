@@ -3,7 +3,8 @@
 ```markdown
 # Curso de Python
 
-Este repositorio contiene los ejercicios desarrollados durante el Curso de Python del Master en Full Stack y Blockchain de ConquerBlocks.
+Este repositorio contiene los ejercicios desarrollados durante el Curso de Python del Master en 
+Full Stack y Blockchain de ConquerBlocks.
 
 ## Contenido del Curso
 
@@ -56,6 +57,4 @@ Las contribuciones son bienvenidas. Por favor, abre un issue o un pull request p
 ## Licencia
 
 Este proyecto está licenciado bajo la Licencia MIT. 
-```
 
-Este archivo `README.md` proporciona una visión general del contenido del curso y los temas tratados, junto con instrucciones sobre cómo configurar el entorno y ejecutar los ejercicios. Puedes ajustarlo según las necesidades específicas de tu proyecto.
