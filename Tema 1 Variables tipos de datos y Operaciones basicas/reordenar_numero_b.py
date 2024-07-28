@@ -1,6 +1,8 @@
 # --- Pedimos al usuario que introduzca un número ---
 numero = input("Introduce un número: ") # string
 
+# --- Creamos el string inverso ---
+#mas elegante
 print(numero[::-1])
 
 # --- Creamos el string inverso ---
