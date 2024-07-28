@@ -1,7 +1,7 @@
 
 
-```markdown
-# Curso de Python
+
+# Curso de Python de ConquerBlocks
 
 Este repositorio contiene los ejercicios desarrollados durante el Curso de Python del Master en 
 Full Stack y Blockchain de ConquerBlocks.
