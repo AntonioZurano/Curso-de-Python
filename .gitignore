@@ -1,0 +1,47 @@
+# Entorno virtual de conda
+/envs/
+/*.conda
+/*.yml
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribuciones
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Caches
+*.egg
+*.pyo
+*.pyd
+*.whl
+
+# Paquetes de instalación
+*.egg
+*.wheel
+
+# Archivos de configuración de IDE
+.vscode/
+.idea/
+
+# Archivos de configuración de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Archivos de configuración de PyCharm
+*.iml
+*.ipr
+*.iws
+
+# Archivos de configuración de Spyder
+.spyderproject
+.spyproject
+
+# Directorios creados por herramientas de testing y cobertura
+htmlcov/
+.tox/
+.nox/
+.coverage
