@@ -5,7 +5,7 @@ o una bienvenida general si es un usuario normal'''
 # --- Pedir al usuario que introduzca su nombre
 nombre = input("Introduce tu nombre: ")
 # --- Nombre del administrador
-administrador = "Alejandro"
+administrador = "alejandro"
 
 # --- Comprobar si ese nombre es igual que el del administrador
 # si es igual, le damos una bienvenida personalizada
