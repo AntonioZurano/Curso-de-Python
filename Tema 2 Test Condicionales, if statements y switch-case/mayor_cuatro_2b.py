@@ -18,6 +18,7 @@ if (b>c):
 
 if (c>d):
   c, d = d , c
+  
 print("El mayor de los cuatro es: ", d)
 print("El orden de los números de menor a mayor es: ", a, b, c, d)
 
