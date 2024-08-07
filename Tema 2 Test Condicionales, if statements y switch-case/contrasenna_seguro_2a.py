@@ -11,5 +11,5 @@ password = input("Introduce tu contraseña: ")
 if ("a" in password or "e" in password or "i" in password or "o" in password or "u" in password) and ("*" in password or "#" in password):
      print("La contraseña es segura")
 else:
+    # Si no los cumple diremos que es insegura
     print("La constraseña no es segura")
-# Si no los cumple diremos que es insegura
