@@ -5,7 +5,8 @@ y = int(input("Introduce el segundo número: "))
 z = int(input("Introduce el tercer número: "))
 
 # Verificar si alguno de ellos es la suma de los otros dos
-#Si es cierto imprimir True
+# Si es cierto imprimir True
+# Si es falso imprimir False
 if (x==y+z):
     print("El primer número es la suma de los otros dos.")
 elif (y==x+z):
