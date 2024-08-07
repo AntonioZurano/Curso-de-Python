@@ -6,6 +6,9 @@ c = float(input("Introduce el tercer número: "))
 d = float(input("Introduce el cuarto número: "))
 
 # --- Comprobamos cual es el mayor --- #
+# --- asignamos a la variable a el mayor de los dos primeros números --- #
+# --- asignamos a la variable b el menor de los dos primeros números --- #
+# --- para no perder el historico de los números --- #
 if (a>b):
   a, b = b , a
 
