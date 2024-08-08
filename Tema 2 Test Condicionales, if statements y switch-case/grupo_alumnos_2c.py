@@ -27,6 +27,6 @@ elif genero.lower() == "chico":
 
 # genero invalido
 else:
-    print("ERROR: genero invalido")
+    print("ERROR: Vuelve a inicializar el programa e ingresa un genero valido")
     exit()
 
