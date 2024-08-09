@@ -13,12 +13,12 @@ letra = input("Introduce una letra: ")
 #ord() nos devuelve el valor ascii de un caracter
 
 
-#mayuscula 65 -- 90
-#minuscula 97 -- 122
+#Valor ASCII para mayuscula 65 -- 90
+#Valor ASCII para minuscula 97 -- 122
 
 if 65 <= ord(letra) <= 90:
-    print("Es mayuscula")
+    print("La letra es mayúscula")
 elif 97 <= ord(letra) <= 122:
-    print("Es minuscula")
+    print("La letra es minúscula")
 else:
     print("La letra introducida no es válida") 
