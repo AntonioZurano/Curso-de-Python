@@ -18,10 +18,10 @@ if len(letra) == 1:
     # --- Condicional
     # Si es mayuscula imprimiremos que es mayuscula
     if letra in letras_mayusculas:
-        print("Es mayuscula")
+        print("La letra es mayúscula")
     # Si es minuscula imprimiremos que es minuscula
     elif letra in letras_minusculas:
-        print("Es minuscula")
+        print("La letra es minúscula")
     # Si no es ninguna de las dos imprimiremos que no es una letra
     else:
         print("La letra introducida no es válida")
