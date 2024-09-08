@@ -21,4 +21,4 @@ print(lista_numeros)
 # --- imprimo el mayor numero de la lista por pantalla
 print("El número mas alto es",max(lista_numeros))
 # --- imprimir la lista ordenada 
-print("La lista ordenada es",sorted(lista_numeros))
+print("La lista ordenada en orden ascendente son",sorted(lista_numeros))
