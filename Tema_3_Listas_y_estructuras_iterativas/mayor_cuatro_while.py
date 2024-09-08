@@ -15,6 +15,7 @@ while terminado == False:
     # compruebo que sea un numero
     if numero.isnumeric() == False:
         print("Eso no es un numero")
+        # vuelvo a pedir el numero al usuario vuelvo al principio del bucle while
         continue
     # lo convierto a entero
     numero = int(numero)
