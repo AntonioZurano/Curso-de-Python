@@ -10,8 +10,6 @@
 # *** 
 # ** 
 # *
-
-
 # --- pedir al usuario
 num = int(input("Introduzca la anchura central (numero entero): "))
 # --- bucle ascendente

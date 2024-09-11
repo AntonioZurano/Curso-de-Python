@@ -13,5 +13,5 @@ while password_entrada != password:
     password_entrada = input("Introduzca la contraseña: ")
     if password_entrada != password:
         print("Contraseña incorrecta. Inténtelo de nuevo")
-
+# Fuera del bucle (contraseña correcta)
 print("Contraseña correcta. Acceso permitido")
