@@ -91,5 +91,5 @@ for data in database:
 
 # calculamos la media de toda la clase
 media_clase = total_notas /num_notas
-# imprimimos la media de la clase
+# imprimimos la media de la clase formateando el resultado
 print("La media de la clase es {:.2f}".format(media_clase))
