@@ -28,8 +28,12 @@ dia_venta = 0
 for venta in ventas:
     ## sumar para cada dia de la semana las ventas correspondientes
     ventas_totales[dia_venta] = ventas_totales[dia_venta] + venta
-    dia_venta = dia_venta + 1
-## sumar para cada dia de la semana las ventas correspondientes
-
+    dia_venta = dia_venta + 1 
+    if dia_venta == 7:
+        dia_venta = 0
+   #print (dia_venta)    
 ## imprimir las ventas realizadas para cada dia de la semana
 ## a lo largo de ese mes
+for i in range(7):
+    print("Ventas del", dias_semana[i], ":", ventas_totales[i])
+
