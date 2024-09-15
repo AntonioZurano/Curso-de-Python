@@ -27,11 +27,12 @@ for i in range(len(nombres_usuario)):
 
 # imprimir mensaje de bienvenida o error
 if credenciales == True:
+    ### si son iguales damos bienvenida
     print('Bienvenido al sistema')
 else:
+    ### si no son iguales damos error
     print('Credenciales incorrectas')
 
 
 
-### si son iguales damos bienvenida
-### si no son iguales damos error
+
