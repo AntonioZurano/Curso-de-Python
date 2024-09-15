@@ -36,9 +36,7 @@ for i in range(0, len(precio_productos)):
     # el dinero obtenido por cada producto será el precio del mismo
     # multiplicado por la cantidad de unidades vendidas
     dinero_por_producto = precio_productos[i] * unidades_producto[i]
-    
     ###facturacion_producto.append(dinero_por_producto)
-
     # sumamos el dinero obtenido por cada producto al dinero total
     dinero_total = dinero_total + dinero_por_producto
     print(f"El dinero facturado por el producto {i + 1} es: {dinero_por_producto} EU.")
