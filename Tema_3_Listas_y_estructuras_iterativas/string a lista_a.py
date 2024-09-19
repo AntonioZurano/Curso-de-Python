@@ -21,6 +21,7 @@ datos_alumno = cadena.split() # split separara la cadena en una lista de valores
 # introducir la lista con los datos del alumno en la base de datos
 base_datos.append(datos_alumno)
 
+# recorrer la base de datos para calcular la nota media de cada alumno
 for alumno in base_datos:
     dni = alumno[2] # extraemos el dni del alumno
     # calculculamos la media del alumno
