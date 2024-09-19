@@ -15,9 +15,9 @@ M = [[2,5,3],
 
 # --- Verificar si M es una matriz ---
 n_columnas = len(M[0])
-# recorrer todas las listas dentro de M (todas las filas de M)
 n_filas = len(M)
 es_matriz = True
+# recorrer todas las listas dentro de M (todas las filas de M)
 for i in range(0, n_filas):
     # compruebo si la fila i tienen la misma dimension 
     # que la de referencia
@@ -56,20 +56,22 @@ if es_matriz == True:
     '''
 
 
-    # Ejecutamos solo si se trata de una matriz
- 
-    #
+    # Ejecutamos solo si se trata de una matriz     
     if es_matriz == True:   
-        suma_max = 0
-        for j in range(0,n_columnas):
-            columna = []
-            for fila in M:
-                columna.append(fila[j])
-            suma_columna = sum(columna)
+        suma_max = 0                        # inicializamos la variable de suma maxima
+        for j in range(0,n_columnas):       # recorremos las columnas
+            columna = []                    # inicializamos nuestra lista donde guardamos los valores
+                                            # de cada una de las columnas en cada iteracion
+            # recorremos las filas
+            for fila in M:                  
+                columna.append(fila[j])     # añadimos el elemento j de cada fila a la columna
+            suma_columna = sum(columna)     # calculamos la suma de la columna
 
-            if suma_columna > suma_max:
-                suma_max = suma_columna
-                num_columna = j
+            # comprobamos si la suma de la columna es mayor a la de la columna anterior
+            if suma_columna > suma_max:     
+                suma_max = suma_columna     # actualizamos el valor de la suma maxima
+                columna_max = columna[:]    # actualizamos la columna con la suma mas alta
+                num_columna = j             # actualizamos el valor del indice de la columna
 
         # imprimimos el resultado
         print("La columna cuyos elementos suman el maximo es:", num_columna, "con una suma total de", suma_max)
