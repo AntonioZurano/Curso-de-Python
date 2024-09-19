@@ -26,3 +26,19 @@ for alumno in alumnos:  # recorremos todos los strings de la lista
                      # para librarnos de cualquier error de formato
                      # añadimos las listas a la base de datos
         base_datos.append(datos_alumno)
+
+# --- realizamos el calculo de la nota media para cada alumno
+
+for alumno in base_datos:
+
+    dni = alumno[2] # extraemos el dni del alumno
+    # calculculamos la media del alumno
+    suma_notas = 0 # iniciamos la variable suma notas en 0 para cada alumno
+    n_notas = 0    # inicializamos el contador de notas en 0
+    for i in range(5,len(alumno)): # recorremos todas las notas del alumno
+        suma_notas = suma_notas + float(alumno[i]) # sumamos todas las notas las notas del alumno
+        n_notas = n_notas + 1 # calculamos el numero total de notas del alumno
+
+    nota_media = suma_notas / n_notas # calculamos la nota media del alumno
+
+    print(f"El alumno con dni {dni} tiene una nota media de {nota_media:.2f}")
