@@ -30,5 +30,30 @@ genero_mas_popular = generos[conteos_desc[0]] # conteos_desc[0] es el indice con
 print(f"El genero más popular es: {genero_mas_popular}")
 
 # ----- agrupamos las peliculas por decada ------
-# extraer las calificaciones
-calificaciones = peliculas[:,4].astype(float)
+print(peliculas[:,3])
+
+
+#creamos array con las decadas a tratar
+#decadas = (peliculas[:,3]//10)*10
+decadas = np.unique(peliculas[:,3].astype(int) // 10 * 10) # convertir a entero y obtener las decadas redondeando y despues multiplicar por 10
+# contamos las peliculas en cada decada
+conteos_decadas = []
+for decada in decadas:
+    conteo = np.count_nonzero((peliculas[:,3].astype(int) >= decada) & (peliculas[:,3].astype(int) < decada + 10))
+    conteos_decadas.append(conteo)
+
+    print("En al decada de", decada, "se crearon", conteo, "peliculas")
+
+
+
+# ----- duracion promedio por genero ------
+todos_generos = peliculas[:,1]
+duraciones = peliculas[:,2]
+# inicializar array para guardar la duracion media
+duracion_media = np.zeros(len(generos))
+
+# duracion media
+for i in range(len(generos)):
+    duracion_media[i] = np.mean(duraciones[todos_generos == generos[i]].astype(float))
+    print("Duracion media de las peliculas de tipo:", generos[i], "es de", duracion_media[i], "minutos")
+
