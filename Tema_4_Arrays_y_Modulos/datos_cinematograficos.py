@@ -52,7 +52,7 @@ duraciones = peliculas[:,2]
 # inicializar array para guardar la duracion media
 duracion_media = np.zeros(len(generos))
 
-# duracion media
+# calcular duracion media
 for i in range(len(generos)):
     duracion_media[i] = np.mean(duraciones[todos_generos == generos[i]].astype(float))
     print("Duracion media de las peliculas de tipo:", generos[i], "es de", duracion_media[i], "minutos")
