@@ -12,8 +12,8 @@ datos = np.array([['2022-01-01', 'Componente 1', 'Lote A', 80],
 # identificar el componente con la puntuacion mas alta
 tipos_componente = datos[:, 1]
 tipos_unicos = np.unique(tipos_componente)
-print(tipos_unicos)
-print(tipos_componente)
+#print(tipos_unicos)
+#print(tipos_componente)
 calidad = datos[:, 3].astype(float)
 promedios = np.zeros(len(tipos_unicos))
 
